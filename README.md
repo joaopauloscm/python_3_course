@@ -1,5 +1,5 @@
 # python_3_course
-# Python 3 Course
+
 
 This repository contains my Python course exercises, notes, and small projects.
 
