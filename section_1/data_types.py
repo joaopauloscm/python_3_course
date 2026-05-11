@@ -8,4 +8,12 @@ print (20 + 10 + 7)
 print ('Joao Paulo')
 print ('joao \'Paulo\'') 
 
-print (True)
+print (10==10)
+print (type (0.1))
+print (type(10 ==10))
+
+# type convertion
+print ('a' + 'b')
+print (int('1'))
+print (float(1.1) + 1)
+print (str(11) + 'b')
