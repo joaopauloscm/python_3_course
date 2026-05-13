@@ -6,4 +6,4 @@ ask_weight = 85
 
 bmi = ask_weight / (ask_height * ask_height)
 
-print (f'{ask_name} your BMI is: {bmi}' )
+print (f'{ask_name} your BMI is: {bmi:.2f}' )
