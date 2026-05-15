@@ -1,3 +1,4 @@
+
 counter = 0
 
 while counter <11:
@@ -6,3 +7,14 @@ while counter <11:
 
 # break: to stop while
 # continue: jump something in loop 
+
+name = 'Joao'
+name_size = len(name)
+i = 0
+
+
+while i < name_size:   
+    print ('*')
+    print(name[i]) 
+    i += 1
+    
