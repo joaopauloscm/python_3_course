@@ -1,5 +1,5 @@
 
-# Even or Odd
+# # Even or Odd
 
 try:
     ask_user_number = int(input('Tell me an INT number! '))
@@ -24,7 +24,7 @@ else:
     
 
 
-# What time is it 
+# # What time is it 
 
 ask_user_time = int(input("Hello What time is it? "))
 
@@ -50,3 +50,33 @@ elif name_size >=5 and name_size <=6:
 
 else:
     print("Your name is too long! ")
+
+
+
+
+#mini calculator 
+
+while True:
+    start_or_exit = input("Type 'C' to continue or 'E' to exit: ")
+
+    if start_or_exit == 'E':
+        break
+
+    if start_or_exit != 'C':
+        print("Invalid option")
+        continue
+
+    ask_first_number = int(input("Tell me a number: "))
+    ask_operator = input("Now tell me a math operator (+, -, /, *): ")
+    ask_second_number = int(input("Tell me a second number: "))
+
+    if ask_operator == '+':
+        print(f'Your result is: {ask_first_number + ask_second_number}')
+    elif ask_operator == '-':
+        print(f'Your result is: {ask_first_number - ask_second_number}')
+    elif ask_operator == '/':
+        print(f'Your result is: {ask_first_number / ask_second_number}')
+    elif ask_operator == '*':
+        print(f'Your result is: {ask_first_number * ask_second_number}')
+    else:
+        print("Invalid operator")
