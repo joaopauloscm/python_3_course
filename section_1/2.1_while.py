@@ -18,3 +18,4 @@ while i < name_size:
     print(name[i]) 
     i += 1
     
+    
