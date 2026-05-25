@@ -4,6 +4,11 @@ for letter in text:
 
 print("------")
 
-numbers = range(1,11)
+numbers = range(1, 11)
+
 for number in numbers:
-    print( number)
+    if number == 2:
+        print("I'm not going to display 2")
+        continue
+
+    print(number)
